@@ -1,0 +1,6 @@
+docker run \
+ -v /etc/localtime:/etc/localtime \
+ -v /var/records:/var/records \
+ -v /etc/ryocdr:/etc/ryocdr \
+ --net=host \
+ -i -t antirek/ryocdr
